@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Artikel home</title>
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-logo">
+                <div class="logoA">
+                    <h3 ><span style="color: brown;">whatever</span></h3>
+                    <h3 ><span style="color: lightcoral;">brand</span></h3>
+                </div>
+                <div class="logoB">
+                    <h2 ><span style="color: rgba(90, 30, 30, 0.671);">it's</span></h2>
+                    <h2 ><span style="color: lightsalmon;">your</span></h2>
+                    <h2 ><span style="color: chocolate;">bread</span></h2>
+                </div>
+                    <!-- <h3 >whatever brand</h3>
+                    <h2 ><span><span style="color: purple;"></span> it's</span> <span style="color: blueviolet;" >
+                        your</span> <span>bread </span> </h2> -->
+            </div>
+            <nav class="header-navbar">
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="product.html">product</a></li>
+                <!-- <li><a href="">login</a></li>
+                <li><a href="">contact us</a></li> -->
+            </nav>
+            <div class="hidden-btn">
+                <li><a href=""><i class="fa-solid fa-bars"></i></a>
+                </li>
+                <div class="sub-dropdown">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">product</a></li>
+                        <li><a href="#">login</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="header-line">
+    </div>
+    </div>
+    <!-- content -->
+    <div class="content-container">
+        <div class="content-wrapper">
+            <ul class="img-atas">
+                <img src="pngwing.com.png" alt="">
+                <img src="pngwing.com (3).png" alt="">
+                <img src="pngwing.com (5).png" alt="">
+            </ul>
+            <ul class="img-bawah">
+                <img src="pngwing.com (2).png" alt="">
+                <img src="pngwing.com (4).png" alt="">
+                <img src="pngwing.com (6).png" alt="">
+                <img src="pngwing.com (8).png" alt="">
+            </ul>
+        <div class="content text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium incidunt dolorem assumenda magnam voluptatibus quidem, ut vel maxime necessitatibus facere illum quam. Quas fugit tempora nulla vero ea ducimus ullam eligendi, sed perspiciatis maxime, aperiam ad, dignissimos inventore! Optio quos libero nisi nam eius laudantium neque illum placeat accusamus labore!</p>
+        </div>
+    </div>
+<!-- SCRIPT -->
+    <script>
+        const toggleBtnIcon = document.querySelector('.hidden-btn i')
+        const dropdownMenu= document.querySelector('.dropdown-menu')
+
+        toggleBtnIcon.onclick = function(){
+            dropdownMenu.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>
